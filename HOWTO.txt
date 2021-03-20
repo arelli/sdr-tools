@@ -1,0 +1,6 @@
+First of all, you may need to instal Python PILlow , by doing the following:
+-Go to https://pillow.readthedocs.io/en/stable/installation.html
+-Follow instructions to install it using pip from command line.
+-It should now run. Try python heatmap.py inputfilename.csv outputfilename.jpg
+-IMPORTAND: you MUST specify a file extension(like .jpg from example). 
+-The Image is saved on the same folder

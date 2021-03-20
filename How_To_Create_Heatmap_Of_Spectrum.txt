@@ -1,0 +1,7 @@
+-This guide is for Windows 10. Tested 18/3/2021.
+-First of all, you need to have the SDR drivers installed(see rtl-sdr.com)
+-It is a good thing to have the above statement validated by installing a SDR software and confirming that your dongle receives signal.
+-Then, Go to the "rtl_power and stuff" folder, and read the how to inside. You will be able to produce a csv file with the spectrum analysis
+data, but it will not be visualised! You need the next step.
+-Go to the rtl-sdr-misc/heatmap and see the instructions there on how to visualise your data.
+-You are ready to explore new areas in the spectrum!

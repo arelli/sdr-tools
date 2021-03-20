@@ -1,0 +1,8 @@
+Use the rtl power to generate a csv that can be translated to a heatmap.
+Download the heatmap.py from https://github.com/keenerd/rtl-sdr-misc/tree/master/heatmap (currently 2021)
+Must be run from the same directory. "Run ./rtl_power -help" to see help.
+./rtl_power -d 1 -f 110M:150M:32k -g 38 -c 28% > testcapture.csv
+
+-IMPORTAND: the "-d 1" option selects the device from available devices.Make sure that it matches yours(mine is 1 for example, yours can be 0 or something else.
+check the command output, if it fails to open an sdr, it should mention which devices are detected)
+
